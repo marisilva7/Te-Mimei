@@ -1,0 +1,66 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        backgroundColor: "#fff",
+        padding: 16,
+    },
+    logo: {
+        width: 150, 
+        height: 50, 
+        alignSelf: "center", 
+        marginBottom: 40, 
+    },
+    campos: {
+        backgroundColor: '#edbddb', 
+        borderRadius: 50,
+        marginTop: 20,
+        padding: 20,
+        height: 370,
+        width: '100%', 
+        justifyContent: 'center', 
+        alignItems: 'center',    
+    },
+    title: {
+        fontSize: 28,
+        fontWeight: 'bold',
+        color: '#bf3c8d', 
+        marginBottom: 25,
+        textAlign: 'center',
+    },
+    input: {
+        width: "100%",
+        height: 45,
+        borderColor: "#bf3c8d",
+        borderWidth: 1.5,
+        borderRadius: 10,
+        marginBottom: 10,
+        paddingHorizontal: 12,
+        backgroundColor: "#fff",
+        fontSize: 15,
+    },
+    button: {
+        width: "80%",
+        backgroundColor: "#bf3c8d",
+        paddingVertical: 12,
+        borderRadius: 15,
+        paddingHorizontal: 60,
+        alignSelf: "center",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 30,
+    },
+    buttonText: {
+        color: "#fff",
+        fontSize: 16,
+        fontWeight: "600",
+    },
+    cadastroTitle: {
+        fontSize: 15,
+        color: "#bf3c8d",
+        marginTop: 20,
+        textAlign: "center",
+    },
+});
